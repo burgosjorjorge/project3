@@ -9,6 +9,17 @@ Global Layout
 /*==================
 Basic Selector Layout
 =====================*/
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
 
 /*==================
 Form Selector Layout
@@ -17,5 +28,18 @@ Form Selector Layout
 /*==================
 Class Layout
 =====================*/
+.main-header {
+    background: linear-gradient(#15735a, #2f5b80);
+    text-align: center;
+    padding: 1em 0;
+}
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-nav li {
+    margin-bottom: 1em;
+}
 
