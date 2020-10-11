@@ -144,4 +144,10 @@ Class Layout
 /*==================
 Pseudo Layout
 =====================*/
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
 
+input:focus {
+    border: 1px solid #15735a;
+}
