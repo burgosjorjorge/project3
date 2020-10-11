@@ -10,13 +10,17 @@ Global Layout
 Basic Selector Layout
 =====================*/
 body {
-    background: #f8f8ff;
+    background: #fff;
 }
 
 h1 {
     text-transform: uppercase;
     color: #fff;
     margin-top: 0;
+}
+
+h2 {
+    text-transform: capitalize;
 }
 
 a {
@@ -33,6 +37,52 @@ hr {
 /*==================
 Form Selector Layout
 =====================*/
+fieldset {
+    border: none;
+}
+
+legend {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    margin-bottom: 1em;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.5)
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 15px 15px 0;
+}
+
+label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 30px 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    text-transform: capitalize;
+    background: #5F9EA0;
+    border-radius: 5px;
+    color: #fff;
+}
+
 
 /*==================
 Class Layout
@@ -52,11 +102,35 @@ Class Layout
     margin-bottom: 1em;
 }
 
+.intro {
+    text-align: center;
+}
+
 .top-hr {
     border-top: double;
     background-color: #2f5b80;
     margin-bottom: -5px;
 }
+
+.main-form {
+    background: #f0f8ff;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.name-info,
+.email-info,
+.phone-info,
+.address-info,
+.city-info,
+.state-info,
+.zip-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*==================
 Pseudo Layout
 =====================*/
