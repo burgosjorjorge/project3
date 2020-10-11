@@ -9,6 +9,10 @@ Global Layout
 /*==================
 Basic Selector Layout
 =====================*/
+body {
+    background: #f8f8ff;
+}
+
 h1 {
     text-transform: uppercase;
     color: #fff;
@@ -19,6 +23,11 @@ a {
     text-decoration: none;
     text-transform: capitalize;
     color: #fff;
+}
+
+hr {
+    border: solid 1px #2f5b80;
+    margin-bottom: 2em;
 }
 
 /*==================
@@ -42,4 +51,13 @@ Class Layout
 .main-nav li {
     margin-bottom: 1em;
 }
+
+.top-hr {
+    border-top: double;
+    background-color: #2f5b80;
+    margin-bottom: -5px;
+}
+/*==================
+Pseudo Layout
+=====================*/
 
