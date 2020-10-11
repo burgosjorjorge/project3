@@ -131,6 +131,13 @@ Class Layout
     flex-direction: column;
 }
 
+.main-footer {
+    background: #d3d3d3;
+    text-align: center;
+    padding: .5em 0;
+    text-transform: capitalize;
+}
+
 
 /*==================
 Pseudo Layout
