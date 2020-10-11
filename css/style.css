@@ -10,7 +10,7 @@ Global Layout
 Basic Selector Layout
 =====================*/
 body {
-    background: #fff;
+    background: #fffff0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -114,7 +114,7 @@ Class Layout
 }
 
 .main-form {
-    background: #f0f8ff;
+    background: #ddd;
     max-width: 75%;
     margin: 0 auto;
     padding: 1em;
@@ -132,7 +132,7 @@ Class Layout
 }
 
 .main-footer {
-    background: #d3d3d3;
+    background: #a9a9a9;
     text-align: center;
     padding: .5em 0;
     text-transform: capitalize;
