@@ -118,6 +118,7 @@ Class Layout
     max-width: 75%;
     margin: 0 auto;
     padding: 1em;
+    
 }
 
 .name-info,
@@ -136,6 +137,7 @@ Class Layout
     text-align: center;
     padding: .5em 0;
     text-transform: capitalize;
+    margin-top: 2em;
 }
 
 
