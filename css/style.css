@@ -196,7 +196,14 @@ input[type="checkbox"]:checked + label {
     input[type="tel"],
     select[id="state"] {
         width: 75%;
+        background: #dcdcdc;
     }
+
+    textarea[id="comments"] {
+        background: #dcdcdc;
+    }
+
+    
 
     
     
