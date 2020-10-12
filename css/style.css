@@ -209,7 +209,15 @@ input[type="checkbox"]:checked + label {
         background: #dcdcdc;
     }
 
-    
+    input[id="zip"] {
+        width: 25%;
+        margin-left: 60px;
+    }
+
+    .zip-info {
+        justify-content: left;
+        
+    }
 
     
     
