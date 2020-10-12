@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <title>project3</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>the code review</h1>
-            <ul>
-                <li><a href="#">contact information</a></li>
-                <li><a href="#">newsletter</a></li>
+    <header class="main-header">
+        <h1>the code review</h1>
+        <!-- <div class="container"> -->
+            <ul class="main-nav">
+                <li><a href="#c-info">contact information</a></li>
+                <li><a href="#news">newsletter</a></li>
             </ul>   
-        </div><!--container-->
-    </header>
+        <!-- </div>container -->
+    </header><!--main-header-->
 
 <div class="container">
+    <hr class="top-hr">
     <hr>
 
     <section class="intro">
-        <h2>signup for our newsletter</h1>
+        <h2>signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox.</p>
     </section><!--intro-->
 
@@ -29,34 +32,34 @@
 
     <form class="main-form">
         <fieldset>
-            <legend>contact information</legend>
+            <legend id="c-info">contact information</legend>
             <div class="name-info">
-                <label for="name">full name</label>
+                <label for="name">full name:</label>
                 <input type="text" id="name" name="user-name">
             </div><!--name info-->
 
             <div class="email-info">
-                <label for="email">email address</label>
+                <label for="email">email address:</label>
                 <input type="email" id="email" name="user-email">
             </div><!--email info-->
 
             <div class=phone-info>
-                <label for="tel">phone number</label>
+                <label for="phone">phone number:</label>
                 <input type="tel" id="phone" name="user-phone">
             </div><!--phone info-->
 
             <div class="address-info">
-                <label for="address">street adress</label>
-                <input type="text" id="address" name="user-address"></input>
+                <label for="address">street adress:</label>
+                <input type="text" id="address" name="user-address">
             </div><!--address info-->
 
             <div class="city-info">
-                <label for="city">city</label>
+                <label for="city">city:</label>
                 <input type="text" id="city" name="user-city">
             </div><!--city info-->
 
             <div class=state-info>
-                <label for="state">state</label>
+                <label for="state">state:</label>
                 <select id="state" name="user-state">
                     <option value="new york">new york</option>
                     <option value="california">california</option>
@@ -67,7 +70,7 @@
             </div><!--state info-->
 
             <div class="zip-info">
-                <label for="zip">zip code</label>
+                <label for="zip">zip code:</label>
                 <input type="text" id="zip" name="user-zip">
             </div><!--zip info-->
         </fieldset>
@@ -75,8 +78,8 @@
         <hr>
 
         <fieldset>
-            <legend>newsletter</legend>
-            <p>Select the newsletter you would like to recieve</p>
+            <legend id="news">newsletter</legend>
+            <h4>Select the newsletter you would like to recieve</h4>
 
             <div class="language">
                 <input type="checkbox" id="html" value="html" name="user-html"><label for="html">HTML News</label><br>
@@ -85,7 +88,7 @@
 
             </div><!--language-->
 
-            <p>Newsletter format</p>
+            <h4>Newsletter format</h4>
 
             <div class="format">
 
@@ -101,7 +104,9 @@
             
         </fieldset>
 
-        <input type="submit" value="sign up">
+        <fieldset class="sending">
+            <input type="submit" value="sign up">
+        </fieldset>
 
     </form>
 </div><!--container-->
