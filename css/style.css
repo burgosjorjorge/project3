@@ -53,9 +53,14 @@ input[type="email"],
 input[type="tel"],
 select {
     margin-bottom: 1em;
-    padding: 5px 0;
+    padding: 5px 5px;
     border-radius: 5px;
-    border: 1px solid rgba(0,0,0,.5)
+    border: none;
+    outline: 0;
+}
+
+input[type="text"]:focus {
+    border-color: 1px solid green;
 }
 
 input[type="checkbox"],
@@ -82,6 +87,10 @@ input[type="submit"] {
     background: #5F9EA0;
     border-radius: 5px;
     color: #fff;
+}
+
+input[id=zip] {
+    width: 50%;
 }
 
 
@@ -133,12 +142,18 @@ Class Layout
     flex-direction: column;
 }
 
+
+
 .main-footer {
     background: #a9a9a9;
     text-align: center;
     padding: .5em 0;
     text-transform: capitalize;
     margin-top: 2em;
+}
+
+.input:focus {
+    background-color: green;
 }
 
 
@@ -203,7 +218,15 @@ input[type="checkbox"]:checked + label {
         background: #dcdcdc;
     }
 
-    
+    input[id="zip"] {
+        width: 25%;
+        margin-left: 60px;
+    }
+
+    .zip-info {
+        justify-content: left;
+        
+    }
 
     
     
