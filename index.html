@@ -13,8 +13,8 @@
         <h1>the code review</h1>
         <!-- <div class="container"> -->
             <ul class="main-nav">
-                <li><a href="#">contact information</a></li>
-                <li><a href="#">newsletter</a></li>
+                <li><a href="#c-info">contact information</a></li>
+                <li><a href="#news">newsletter</a></li>
             </ul>   
         <!-- </div>container -->
     </header><!--main-header-->
@@ -32,34 +32,34 @@
 
     <form class="main-form">
         <fieldset>
-            <legend>contact information</legend>
+            <legend id="c-info">contact information</legend>
             <div class="name-info">
-                <label for="name">full name</label>
+                <label for="name">full name:</label>
                 <input type="text" id="name" name="user-name">
             </div><!--name info-->
 
             <div class="email-info">
-                <label for="email">email address</label>
+                <label for="email">email address:</label>
                 <input type="email" id="email" name="user-email">
             </div><!--email info-->
 
             <div class=phone-info>
-                <label for="phone">phone number</label>
+                <label for="phone">phone number:</label>
                 <input type="tel" id="phone" name="user-phone">
             </div><!--phone info-->
 
             <div class="address-info">
-                <label for="address">street adress</label>
+                <label for="address">street adress:</label>
                 <input type="text" id="address" name="user-address">
             </div><!--address info-->
 
             <div class="city-info">
-                <label for="city">city</label>
+                <label for="city">city:</label>
                 <input type="text" id="city" name="user-city">
             </div><!--city info-->
 
             <div class=state-info>
-                <label for="state">state</label>
+                <label for="state">state:</label>
                 <select id="state" name="user-state">
                     <option value="new york">new york</option>
                     <option value="california">california</option>
@@ -70,7 +70,7 @@
             </div><!--state info-->
 
             <div class="zip-info">
-                <label for="zip">zip code</label>
+                <label for="zip">zip code:</label>
                 <input type="text" id="zip" name="user-zip">
             </div><!--zip info-->
         </fieldset>
@@ -78,7 +78,7 @@
         <hr>
 
         <fieldset>
-            <legend>newsletter</legend>
+            <legend id="news">newsletter</legend>
             <h4>Select the newsletter you would like to recieve</h4>
 
             <div class="language">
