@@ -101,6 +101,7 @@ Class Layout
 
 .main-nav li {
     margin-bottom: 1em;
+    font-size: 20px;
 }
 
 .intro {
@@ -115,7 +116,7 @@ Class Layout
 
 .main-form {
     background: #ddd;
-    max-width: 75%;
+    max-width: 400px;
     margin: 0 auto;
     padding: 1em;
     
@@ -148,6 +149,23 @@ input[type="checkbox"]:checked + label {
     font-weight: bold;
 }
 
-input:focus {
-    border: 1px solid #15735a;
+@media(min-width:768px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+
+    .main-header {
+        justify-content: space-between;
+    }
+
+    h1 ,
+    .main-nav li {
+        margin: 0 40px;
+        padding: 20px 0;
+    }
+
+    
+    
+     
 }
