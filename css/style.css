@@ -149,6 +149,11 @@ input[type="checkbox"]:checked + label {
     font-weight: bold;
 }
 
+
+/*==================
+@ Media  Layout
+=====================*/
+
 @media(min-width:768px) {
     .main-header,
     .main-nav {
@@ -163,6 +168,34 @@ input[type="checkbox"]:checked + label {
     .main-nav li {
         margin: 0 40px;
         padding: 20px 0;
+    }
+
+    body {
+        background: #ddd;
+    }
+
+    .main-form {
+        background: #fff;
+        max-width: 600px;
+    }
+
+    .name-info,
+    .email-info,
+    .phone-info,
+    .address-info,
+    .city-info,
+    .state-info,
+    .zip-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select[id="state"] {
+        width: 75%;
     }
 
     
