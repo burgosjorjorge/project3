@@ -45,17 +45,17 @@
 
             <div class=phone-info>
                 <label for="phone">phone number:</label>
-                <input type="tel" id="phone" name="user-phone">
+                <input type="tel" id="phone" name="user-phone" placeholder="required">
             </div><!--phone info-->
 
             <div class="address-info">
                 <label for="address">street adress:</label>
-                <input type="text" id="address" name="user-address">
+                <input type="text" id="address" name="user-address" placeholder="required">
             </div><!--address info-->
 
             <div class="city-info">
                 <label for="city">city:</label>
-                <input type="text" id="city" name="user-city">
+                <input type="text" id="city" name="user-city" placeholder="required">
             </div><!--city info-->
 
             <div class=state-info>
@@ -99,13 +99,17 @@
 
             <div class="comments-info">
                 <label for="comments">Other topics you'd like to hear about</label>
-                <textarea id="comments" name="user-comments"></textarea>
+                <textarea id="comments" name="user-comments" placeholder="Enter Comments"></textarea>
             </div><!--comments info-->
             
         </fieldset>
 
-        <fieldset class="sending">
-            <input type="submit" value="sign up">
+        <fieldset>
+            <div class="sending">
+                <label for="submitting">username:</label>
+                <input type="text" id="submitting" name="user-submit" placeholder="required">
+            </div>
+                <input type="submit" id="username" value="sign up">
         </fieldset>
 
     </form>
