@@ -90,13 +90,14 @@ textarea {
     outline: 0;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     width: 100%;
     padding: 10px 0;
     text-transform: capitalize;
     background: #5F9EA0;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
 }
 
 input[id=zip] {
